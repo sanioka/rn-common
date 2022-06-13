@@ -2,6 +2,8 @@
 
 Common repository for my React Native projects.
 
+<br>
+
 ### How to build project
 
 ⚽️ Prepare expo environment by https://docs.expo.dev/get-started/installation/
@@ -33,7 +35,7 @@ https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/
 
 <br>
 
-#### Init AWS Amplify from Zero
+### Init AWS Amplify from Zero
 
 https://docs.amplify.aws/start/getting-started/installation/q/integration/react-native/
 
@@ -42,6 +44,8 @@ https://www.youtube.com/watch?v=fWbM5DLh25U&t=34s
 `npm install -g @aws-amplify/cli`
 
 `amplify configure`
+
+<br>
 
 https://docs.amplify.aws/start/getting-started/nextsteps/q/integration/react-native
 
