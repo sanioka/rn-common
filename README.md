@@ -1,6 +1,6 @@
 # rn-common
 
-Common repository for my React Native projects.
+Common documentation for my React Native apps.
 
 <br>
 
@@ -56,3 +56,22 @@ copy`
 
 <br>
 
+### How to prepare AWS Amplify environment
+
+[https://console.aws.amazon.com/](https://console.aws.amazon.com/) eu-central-1
+
+> ⚠️ Error: Unable to resolve module `./aws-exports` from `App.tsx`:
+
+> ⚠️ Unable to resolve module ../aws-exports from /Users/sanioka/Sites : Work/ReactNative/rn-letsgo-proto1/src/hooks/loadResourcesAndDataAsync.ts:
+
+It means you need to generate 'aws-exports.js' file. So read config from AWS Amplify server:
+
+`amplify -v` ? `do nothing` : `npm install -g @aws-amplify/cli` // check amplify-cli already installed
+
+`amplify pull --appId ************ --envName dev` // 'aws-exports.js' file will be generated automatically
+
+⚽️ See Notion App — react-native-amplify-1 (universal user)
+
+<br>
+
+(c) 2022
